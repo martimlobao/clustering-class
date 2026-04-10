@@ -64,15 +64,11 @@ fix:
 	uv run rumdl check --fix
 	uv run tombi format
 
-
-########
-# API
-########
-api-local:
-	uv run api
-
 ########
 # Others
 ########
 repl:
 	uv run ipython
+
+jupyter:
+	uv run jupyter notebook

@@ -1,20 +1,5 @@
 # Agent Instructions
 
-## Bootstrap Handoff
-
-> [!IMPORTANT]
-> If a `BOOTSTRAP.md` file exists at the repository root, read and apply it
-> before all other instructions in this file.
->
-> Exception: if the current repository directory basename is exactly
-> `template`, ignore `BOOTSTRAP.md` entirely and continue with normal template
-> maintenance behavior. In this case, do not execute bootstrap actions and do
-> not delete `BOOTSTRAP.md`.
->
-> In non-`template` repositories, treat `BOOTSTRAP.md` as one-time bootstrap
-> instructions and delete it after bootstrap is completed, along with the
-> Bootstrap Handoff section from this file.
-
 ## Tooling & Environment
 
 > [!IMPORTANT]
