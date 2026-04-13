@@ -222,7 +222,7 @@ wheels = [
 ]
 
 [[package]]
-name = "clustering-class"
+name = "clustering-lesson"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [

@@ -1,7 +1,6 @@
 """Tests for foobar.core.config."""
 
 import pytest
-
 from foobar.core.config import ApiConfig, DBConfig
 
 

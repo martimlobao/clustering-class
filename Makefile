@@ -71,4 +71,4 @@ repl:
 	uv run ipython
 
 jupyter:
-	uv run jupyter notebook
+	uv run jupyter lab
