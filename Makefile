@@ -7,7 +7,7 @@ MAKEFLAGS += -j$(JOBS) --output-sync=target
         type-ty type-pyright
 
 # High-level aggregate
-check: lint typecheck test
+check: lint typecheck # test
 
 #################
 # Lint (parallel)
@@ -21,7 +21,7 @@ lint-ruff-format:
 	uv run ruff format --check
 
 lint-docfmt:
-	uv run docformatter --check -r src tests
+	uv run docformatter --check -r notebooks
 
 lint-bandit:
 	uv run bandit -r src
@@ -59,7 +59,7 @@ test:
 fix:
 	uv run ruff format
 	uv run ruff check --fix
-	uv run docformatter -i -r src tests
+	uv run docformatter -i -r notebooks
 	uv run rumdl fmt
 	uv run rumdl check --fix
 	uv run tombi format

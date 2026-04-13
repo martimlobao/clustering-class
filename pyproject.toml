@@ -1,7 +1,7 @@
 [project]
-name = "clustering-lesson"
+name = "clustering-class"
 version = "0.1.0"
-description = "Clustering lesson"
+description = "Clustering class"
 readme = "README.md"
 requires-python = ">=3.13,<3.14"
 authors = [{ name = "Martim Lobao", email = "dev@lobao.io" }]
@@ -15,9 +15,6 @@ dependencies = [
   "scipy>=1.17.1",
   "seaborn>=0.13.2",
 ]
-
-[project.scripts]
-clustering = "clustering.main:main"
 
 [dependency-groups]
 dev = [
