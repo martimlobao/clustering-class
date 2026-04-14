@@ -1,5 +1,2 @@
-from foobar.main import main
-
-
-def test_main() -> None:
-    main()
+def test_placeholder() -> None:
+    assert True

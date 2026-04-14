@@ -85,7 +85,7 @@ coverage. Use pytest fixtures in `tests/conftest.py` to share setup.
 
 ## Repository Layout
 
-- Source code follows the `src/` layout (primary package lives under `src/<package_name>/`)
+- Notebooks reside under `notebooks/`
 - Tests reside under `tests/` and use **pytest**
 - Tooling configuration lives alongside project root files (e.g., `pyproject.toml`, `ruff.toml`)
 
