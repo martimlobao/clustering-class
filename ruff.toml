@@ -60,6 +60,10 @@ ignore = [
   "S101",  # assert
   "SLF001",  # private-member-access
 ]
+"notebooks/**/*.ipynb" = [
+  "ANN",  # annotations
+  "DOC",  # docstrings
+]
 
 [lint.mccabe]
 # Adjust level of function complexity for error `C901`.
