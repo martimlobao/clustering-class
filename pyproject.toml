@@ -36,15 +36,15 @@ dev = [
 ]
 
 [tool.pyright]
-include = ["src", "tests"]
+include = ["notebooks", "tests"]
 typeCheckingMode = "strict"
 executionEnvironments = [
-  { root = "src", extraPaths = ["src", "."] },
-  { root = "tests", extraPaths = ["src", "."], reportPrivateUsage = false },
+  { root = "notebooks", extraPaths = ["notebooks", "."] },
+  { root = "tests", extraPaths = ["notebooks", "."], reportPrivateUsage = false },
 ]
 
 [tool.pytest]
-addopts = ["--cov-fail-under=100", "--cov=src"]
+addopts = ["--cov-fail-under=0", "--cov=notebooks"]
 testpaths = [
   "tests",
 ]

@@ -21,10 +21,10 @@ lint-ruff-format:
 	uv run ruff format --check
 
 lint-docfmt:
-	uv run docformatter --check -r notebooks
+	uv run docformatter --check -r notebooks tests
 
 lint-bandit:
-	uv run bandit -r src
+	uv run bandit -r notebooks
 
 lint-yamllint:
 	uv run yamllint --strict .
@@ -59,7 +59,7 @@ test:
 fix:
 	uv run ruff format
 	uv run ruff check --fix
-	uv run docformatter -i -r notebooks
+	uv run docformatter -i -r notebooks tests
 	uv run rumdl fmt
 	uv run rumdl check --fix
 	uv run tombi format
