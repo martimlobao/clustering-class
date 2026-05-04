@@ -22,11 +22,12 @@ session, pairing an interactive notebook with a short slide deck.
 
 ## Usage
 
-Install dependencies with `uv`, then open the notebook with Jupyter:
+Only requirement is `uv`, run a single command to open the notebook with Jupyter:
 
 ```bash
-uv sync
-uv run jupyter notebook notebooks/clustering_techniques.ipynb
+uv run jupyter lab
+# even shorter
+make jupyter
 ```
 
 The material was originally prepared for an iXperience data science bootcamp.
