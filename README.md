@@ -1,4 +1,4 @@
-# Foobar Repository
+# Clustering Techniques
 
 <div align="left">
 
@@ -9,20 +9,24 @@
 
 ## Overview
 
-All things foobar.
+This repository contains a compact class on clustering techniques for data
+science learners. It is designed as teaching material for a bootcamp-style
+session, pairing an interactive notebook with a short slide deck.
 
-## Prerequisites
+## Contents
 
-- [`uv`](https://docs.astral.sh/uv/getting-started/installation/), which
-  manages virtual environments and dependencies.
+- `notebooks/clustering_techniques.ipynb`: an instructional notebook covering
+  core clustering workflows and examples.
+- `slides/iX Clustering Techniques.pdf`: presentation slides that accompany
+  the class.
 
-## Running the Project
+## Usage
 
-Execute the console scripts listed in `pyproject.toml` directly through `uv`:
+Install dependencies with `uv`, then open the notebook with Jupyter:
 
 ```bash
-uv run example
+uv sync
+uv run jupyter notebook notebooks/clustering_techniques.ipynb
 ```
 
-You can also drop into an interactive shell with the same environment using
-`uv run ipython` (or the `make repl` shortcut).
+The material was originally prepared for an iXperience data science bootcamp.
