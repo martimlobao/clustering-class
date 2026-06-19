@@ -273,7 +273,7 @@ dev = [
     { name = "coverage", specifier = ">=7.14.1" },
     { name = "docformatter", specifier = ">=1.7.7" },
     { name = "httpx", specifier = ">=0.27.2" },
-    { name = "hypothesis", specifier = ">=6.155.1" },
+    { name = "hypothesis", specifier = ">=6.155.5" },
     { name = "ipykernel", specifier = ">=7.2.0" },
     { name = "ipython", specifier = ">=9.14.1" },
     { name = "pyright", specifier = ">=1.1.410" },
@@ -511,14 +511,14 @@ wheels = [
 
 [[package]]
 name = "hypothesis"
-version = "6.155.1"
+version = "6.155.5"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "sortedcontainers" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/49/ef/4a94c12429986a90076057513e084bf32106a9bdc62c8e29f58673dd85a2/hypothesis-6.155.1.tar.gz", hash = "sha256:07c102031612b98d7c1be15ca3608c43e1234d9d07e3a190a53fa01536700196", size = 477300, upload-time = "2026-05-29T23:12:57.515Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/b6/da/7e6cca4f0ad6b2f3a2380d72993ad3482c8ecb126f0908af26d2427455a1/hypothesis-6.155.5.tar.gz", hash = "sha256:f7f8f803e05a69cd70399b07ed89a89b673c9ff3530977c4a768ed3acb702169", size = 478083, upload-time = "2026-06-18T19:23:04.405Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/26/6e/8c9cf32201238617454303b1605dfa667d90cd1ef51226f92d9c2b3b8f7c/hypothesis-6.155.1-py3-none-any.whl", hash = "sha256:2753f469df3ba3c483b08e0c37dbcbc41d8316ebb921abcc07493ee9c8a7d187", size = 543715, upload-time = "2026-05-29T23:12:54.77Z" },
+    { url = "https://files.pythonhosted.org/packages/2e/db/04b7cfc3cc6d49eecc6a390e61c5b941a0a32a98884fdf0701228a9b9c4f/hypothesis-6.155.5-py3-none-any.whl", hash = "sha256:b0eb5645f4c962dffdafef36d05329aa704a5322ee1273495fa98d5a986daf70", size = 544524, upload-time = "2026-06-18T19:23:02.975Z" },
 ]
 
 [[package]]
